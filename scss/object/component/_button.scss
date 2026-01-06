@@ -1,0 +1,22 @@
+@use "../../foundation/variables";
+
+.c-button__more {
+    width: 200px;
+    height: 60px;
+    border: 1px solid #707070;
+    margin: 0 auto;
+
+
+    a {
+        @include variables.font-en-400(2.4rem, variables.$color-blk);
+
+    }
+}
+
+.c-button__more a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}

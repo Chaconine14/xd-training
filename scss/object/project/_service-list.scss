@@ -1,0 +1,33 @@
+@use "../../foundation/variables";
+
+.p-service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    h3 {
+        @include variables.font-jp-700(1.9rem, variables.$color-blk);
+        padding-bottom: 12px;
+    }
+
+    p {
+        @include variables.font-jp-400(1.6rem, variables.$color-blk);
+
+    }
+
+}
+
+.p-service-list__item {
+    background-color: variables.$color-white;
+    height: 450px;
+    border-radius: 75px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}

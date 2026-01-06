@@ -1,0 +1,22 @@
+@use "../../foundation/variables";
+
+.p-works-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    h3 {
+        @include variables.font-jp-700(1.9rem, variables.$color-blk);
+        padding: 16px 0;
+    }
+
+    p {
+        @include variables.font-jp-400(1.6rem, variables.$color-blk);
+
+    }
+
+
+    img {
+        width: 100%;
+    }
+}

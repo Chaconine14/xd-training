@@ -1,0 +1,11 @@
+@use "../../foundation/variables";
+
+.c-header-nav {
+    display: flex;
+    gap: 50px;
+
+    a {
+        @include variables.font-en-700(2.6rem, variables.$color-blk);
+
+    }
+}

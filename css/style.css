@@ -1,0 +1,197 @@
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.l-header {
+  height: 137px;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+  justify-content: space-between;
+}
+.l-header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #210404;
+}
+
+.l-service {
+  height: 895px;
+  background-color: #F6F6F6;
+  padding: 0 10%;
+}
+
+.l-works {
+  padding: 0 10%;
+}
+
+.l-footer {
+  height: 100px;
+  background-color: #A7A4A4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.l-footer small {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #210404;
+}
+
+.c-header-nav {
+  display: flex;
+  gap: 50px;
+}
+.c-header-nav a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #210404;
+}
+
+.c-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: #210404;
+  display: grid;
+  place-items: center;
+  padding: 60px 0;
+}
+.c-title span {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #210404;
+}
+
+.c-button__more {
+  width: 200px;
+  height: 60px;
+  border: 1px solid #707070;
+  margin: 0 auto;
+}
+.c-button__more a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #210404;
+}
+
+.c-button__more a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-main-visual {
+  position: relative;
+}
+.p-main-visual img {
+  width: 100%;
+}
+.p-main-visual p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier Prime", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8rem;
+  color: #FFF;
+}
+
+.p-service-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.p-service-list h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: #210404;
+  padding-bottom: 12px;
+}
+.p-service-list p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #210404;
+}
+
+.p-service-list__item {
+  background-color: #FFF;
+  height: 450px;
+  border-radius: 75px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p-service-list__item img {
+  width: 200px;
+  height: 200px;
+}
+
+.p-works-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.p-works-list h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: #210404;
+  padding: 16px 0;
+}
+.p-works-list p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #210404;
+}
+.p-works-list img {
+  width: 100%;
+}
+
+.l-service .u-margin {
+  margin-top: 90px;
+}
+
+.l-works .u-margin {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */

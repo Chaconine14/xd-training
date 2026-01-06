@@ -1,0 +1,71 @@
+//***************************************
+//カラーパレット
+//***************************************
+
+$color-blk: #210404;
+$color-white: #FFF;
+$color-gray: #F6F6F6;
+
+
+//***************************************
+//フォント設定
+//***************************************
+
+@mixin font-en-700($size, $color) {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin font-en-400($size, $color) {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin font-jp-700($size, $color) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin font-jp-400($size, $color) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $size;
+    color: $color;
+}
+
+
+@mixin font-courier-700($size, $color) {
+    font-family: "Courier Prime", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $size;
+    color: $color;
+}
+
+
+
+//***************************************
+//レスポンシブ　メディアクエリ設定
+//***************************************
+
+@mixin media-tb {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-pc {
+    @media (min-width: 1025px) {
+        @content;
+    }
+}

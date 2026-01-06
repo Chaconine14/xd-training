@@ -1,0 +1,13 @@
+@use "../../foundation/variables";
+
+.c-title {
+    @include variables.font-en-700(3.6rem, variables.$color-blk);
+    display: grid;
+    place-items: center;
+    padding: 60px 0;
+
+    span {
+        @include variables.font-jp-400(1.4rem, variables.$color-blk);
+    }
+
+}

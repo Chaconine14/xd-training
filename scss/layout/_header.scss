@@ -1,0 +1,14 @@
+@use "../foundation/variables";
+
+.l-header {
+    height: 137px;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+    justify-content: space-between;
+
+    h1 {
+        @include variables.font-en-700(2.6rem, variables.$color-blk);
+
+    }
+}

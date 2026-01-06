@@ -1,0 +1,7 @@
+@use "../foundation/variables";
+
+.l-service {
+    height: 895px;
+    background-color: variables.$color-gray;
+    padding: 0 10%;
+}

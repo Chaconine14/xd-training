@@ -1,0 +1,14 @@
+@use "../foundation/variables";
+
+.l-footer {
+    height: 100px;
+    background-color: #A7A4A4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    small {
+        @include variables.font-jp-400(1.4rem, variables.$color-blk);
+
+    }
+}
